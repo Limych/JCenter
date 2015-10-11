@@ -23,7 +23,8 @@ def setVersionNameAndCode(version) {
 	def inc = 0
 	def suffix = "-SNAPSHOT"
 	def runTasks = gradle.startParameter.taskNames
-	if( 'assemble' in runTasks || 'assembleRelease' in runTasks || 'aR' in runTasks ){
+	if( 'bundleRelease' in runTasks
+			|| 'assemble' in runTasks || 'assembleRelease' in runTasks || 'aR' in runTasks ){
 		inc = 1
 		suffix = ""
 	}
