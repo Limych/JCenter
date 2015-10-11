@@ -1,7 +1,5 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = android.defaultConfig.versionName
-
 
 
 // Bintray Properties. Gradle can read properties from anywhere
