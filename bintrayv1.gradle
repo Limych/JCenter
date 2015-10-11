@@ -1,7 +1,5 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = VERSION_NAME
-
 
 
 // Bintray Properties. Gradle can read properties from anywhere
