@@ -60,3 +60,7 @@ def setVersionNameAndCode(version) {
 	android.defaultConfig.versionName "${vName}.${vPatch}${suffix}"
 	android.defaultConfig.versionCode vCode
 }
+
+android.defaultConfig.ext.setVersionNameAndCode = { version ->
+		setVersionNameAndCode(version)
+	}
