@@ -62,5 +62,3 @@ def setVersionNameAndCode(version) {
 	android.defaultConfig.versionCode vCode
 	rootProject.version = android.defaultConfig.versionName
 }
-
-setVersionNameAndCode(VERSION)
