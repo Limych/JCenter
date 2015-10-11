@@ -62,6 +62,4 @@ def setVersionNameAndCode(version) {
 	rootProject.version = android.defaultConfig.versionName
 }
 
-android.defaultConfig.ext.setVersionNameAndCode = { version ->
-		setVersionNameAndCode(version)
-	}
+setVersionNameAndCode(VERSION)
